@@ -1,0 +1,246 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* END OF CSS RESET */
+
+/* NAVBAR STYLE */
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, clean, sans-serif;
+  color: #1F497D;
+}
+
+.top-nav {
+  height: 75px;
+  width: 100%;
+  background-color: #FBE2F1;
+  box-shadow: 0 0 15px -5px #000;
+}
+
+.top-logo img {
+  height: 55px;
+  float: left;
+  margin-right: 50px;
+  margin-top: 8px;
+}
+
+.navbar-item {
+  list-style: none;
+  margin-right: 48px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+.navbar-item a:hover {
+  color: #EE2D68;
+  text-decoration: none;
+}
+
+.btn {
+  margin-top: 18px;
+  color: #fff;
+  border: none;
+  font-size: 13px;
+  padding: 10px 15px;
+}
+
+.log-in {
+  background-color: #EE2D68;
+}
+
+.log-in:hover {
+  background-color: #F15786;
+  color: #fff;
+}
+
+.sign-up {
+  background-color: #49AFC3;
+}
+
+.sign-up:hover {
+  background-color: #64BBCC;
+  color: #fff;
+}
+
+/* COVER TESTIMONIAL STYLE */
+
+.cover-testimonial {
+  background-image: url("Images/Olivia.png");
+  background-repeat: no-repeat;
+  background-position: -210px -190px;
+  box-shadow: 0 0 15px -5px #000;
+  margin-bottom: 70px;
+  width: 100%;
+  height: 475px;
+}
+
+.top-quote {
+  font-size: 30px;
+  line-height: 35px;
+  margin-top: 130px;
+  color: #fff;
+  font-style: italic;
+  text-shadow: 1px 1px #000;
+}
+
+.parent-name {
+  float: right;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+
+/* BOTTOM TESTIMONIAL STYLE */
+
+.bottom-testimonials h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 70px;
+}
+
+.row {
+  margin-bottom: 70px;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  box-shadow: 0 0 15px -5px #000;
+}
+
+#testimonial-1 {
+  background-image: url("Images/Jessica.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130%;
+}
+#testimonial-2 {
+  background-image: url("Images/Ann.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130%;
+}
+#testimonial-3 {
+  background-image: url("Images/Laura.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130%;
+}
+#testimonial-4 {
+  background-image: url("Images/Miriam.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130%;
+}
+#testimonial-5 {
+  background-image: url("Images/Cecily.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 110%;
+}
+#testimonial-6 {
+  background-image: url("Images/Lizzy.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.bottom-testimonials p {
+  font-size: 13px;
+  line-height: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.user-quote {
+  font-style: italic;
+}
+
+.parent-name-bottom {
+  float: right;
+}
+
+/* FOOTER STYLE */
+
+.footer {
+  background-color: #FBE2F1;
+  border-top: 3px solid #F8CDE6;
+}
+
+.bottom-logo img {
+  margin-top: 20px;
+}
+
+.link-column {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #EE2D68;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.link-column a {
+  color: #EE2D68;
+}
+
+.link-column a:hover {
+  text-decoration: none;
+}
+
+.link-column h3 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.social-media-icons li {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+
