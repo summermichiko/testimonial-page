@@ -47,8 +47,8 @@ table {
 /* NAVBAR STYLE */
 
 body {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, clean, sans-serif;
-  color: #1F497D;
+  font-family: "Lato", "Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, clean, sans-serif;
+  color: #545454;
 }
 
 .top-nav {
@@ -70,6 +70,10 @@ body {
   margin-right: 48px;
   margin-top: 30px;
   font-size: 13px;
+}
+
+.navbar-item a {
+  color: #545454;
 }
 
 .navbar-item a:hover {
@@ -128,6 +132,7 @@ body {
   float: right;
   color: #fff;
   text-shadow: 1px 1px #000;
+  font-size: 18px;
 }
 
 /* BOTTOM TESTIMONIAL STYLE */
@@ -191,8 +196,8 @@ body {
 }
 
 .bottom-testimonials p {
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 24px;
   padding-left: 20px;
   padding-right: 20px;
 }
